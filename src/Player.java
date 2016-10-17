@@ -34,7 +34,7 @@ public class Player {
 		System.out.println("Prepare your fleet"); 
 		Board bd = new Board(board,playerName);
 		while(numOfShip>0){
-			System.out.println("Add ship: Enter ship# (1-AirCarrier, 2-Battleship, 3-Cruiser,4-Submarine, 5-Destroyer), position (A1/B2), ishorizontal (true/false)"); 
+			System.out.println("Add ship: Enter ship# (1 (AirCarrier), 2(Battleship), 3(Cruiser),4(Submarine), 5 (Destroyer), position (A1/B2), ishorizontal (true/false) sample Input : 1 A1 true"); 
 			int shipSerial= in.nextInt();
 			String pos = in.next();
 			Boolean isHorizontal = in.nextBoolean(); 
